@@ -37,10 +37,10 @@
         toggleClass(elements.menu, active);
         toggleClass(elements.menuLink, active);
     }
-    
+
     function handleEvent(e) {
         var elements = getElements();
-        
+
         if (e.target.id === elements.menuLink.id) {
             toggleAll();
             e.preventDefault();
@@ -48,7 +48,7 @@
             toggleAll();
         }
     }
-    
+
     document.addEventListener('click', handleEvent);
 
 }(this, this.document));
