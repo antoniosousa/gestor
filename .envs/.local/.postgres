@@ -1,0 +1,8 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=server_sales_manager
+POSTGRES_USER=UfMEgSJJSGlnxkcahiSEwJmcDXOZuhqt
+POSTGRES_PASSWORD=k8Us2n3FiPFuKy8eAZcQhNtzK6M6VYYcyzzMfJBYspC3hXpRtyTBA6eOpAkvWSFF
+export DATABASE_URL=postgres://UfMEgSJJSGlnxkcahiSEwJmcDXOZuhqt:k8Us2n3FiPFuKy8eAZcQhNtzK6M6VYYcyzzMfJBYspC3hXpRtyTBA6eOpAkvWSFF@postgres:5432/server_sales_manager

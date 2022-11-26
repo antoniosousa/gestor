@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "server-sales-manager"
+version = "0.1.0"
+description = "sales manager"
+authors = ["Antonio Sousa <antonioufpi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "server_sales_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "4.0.8"
+django-allauth = "^0.51.0"
+drf-spectacular = "^0.24.2"
+celery = "^5.2.7"
+django-environ = "^0.9.0"
+pytz = "^2022.6"
+python-slugify = "^7.0.0"
+pillow = "^9.3.0"
+argon2-cffi = "^21.3.0"
+whitenoise = "^6.2.0"
+redis = "^4.3.5"
+django-celery-beat = "^2.4.0"
+flower = "^1.2.0"
+django-model-utils = "^4.3.1"
+django-redis = "^5.2.0"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^3.13.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+flake8 = "^6.0.0"
+isort = "^5.10.1"
+pylint = "^2.15.6"
+mypy = "^0.991"
+ipdb = "^0.13.9"
+watchfiles = "^0.18.1"
+django-stubs = "^1.13.0"
+pytest = "^7.2.0"
+pytest-sugar = "^0.9.6"
+djangorestframework-stubs = "^1.8.0"
+flake8-isort = "^5.0.3"
+coverage = "^6.5.0"
+pylint-django = "^2.5.3"
+pylint-celery = "^0.3"
+pre-commit = "^2.20.0"
+factory-boy = "^3.2.1"
+django-debug-toolbar = "^3.7.0"
+django-extensions = "^3.2.1"
+django-coverage-plugin = "^2.0.4"
+pytest-django = "^4.5.2"
+werkzeug = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
